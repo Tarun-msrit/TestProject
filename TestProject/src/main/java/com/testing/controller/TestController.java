@@ -13,5 +13,8 @@ public class TestController {
 		return "Hello Tarun";
 	}
 	
-	
+	@GetMapping("/welcome")
+	public String getWelcome() {
+		return "Hello Tarun";
+	}
 }
