@@ -18,5 +18,9 @@ public class TestController {
 		return "Bye Tarun";
 	}
 	
+	@GetMapping("/fruit")
+	public String getFruit() {
+		return "Mango";
+	}
 	
 }
