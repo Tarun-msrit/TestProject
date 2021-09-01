@@ -18,6 +18,12 @@ public class TestController {
 		return "Hello Tarun";
 	}
 	
+	@GetMapping("/fruit")
+	public String getFruit() {
+		return "Mango";
+	}
+	
+	
 	@GetMapping("/color")
 	public String getColor() {
 		return "Its Orange";
