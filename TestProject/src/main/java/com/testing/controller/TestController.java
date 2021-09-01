@@ -14,9 +14,9 @@ public class TestController {
 	}
 	
 
-	@GetMapping("/bye")
-	public String getBye() {
-		return "Bye Tarun";
+	@GetMapping("/fruit")
+	public String getFruit() {
+		return "Mango";
 	}
 
 
