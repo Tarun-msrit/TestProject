@@ -13,20 +13,5 @@ public class TestController {
 		return "Hello Tarun";
 	}
 	
-	@GetMapping("/bye")
-	public String getBye() {
-		return "Bye Tarun";
-	}
-	
-
-	@GetMapping("/welcome")
-	public String getWelcome() {
-		return "Hello Tarun";
-	}
-
-	@GetMapping("/fruit")
-	public String getFruit() {
-		return "Mango";
-	}
 	
 }
