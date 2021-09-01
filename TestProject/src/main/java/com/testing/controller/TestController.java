@@ -14,17 +14,11 @@ public class TestController {
 	}
 	
 
-
 	@GetMapping("/fruit")
 	public String getFruit() {
 		return "Mango";
 	}
 	
-	@GetMapping("/bye")
-	public String getBye() {
-		return "Good Bye Tarun";
-	}
-
 
 	@GetMapping("/welcome")
 	public String getWelcome() {
