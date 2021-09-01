@@ -21,7 +21,7 @@ public class TestController {
 
 	@GetMapping("/bye")
 	public String getBye() {
-		return "Good Bye Tarun";
+		return "Good Bye Tarun,see you next time";
 	}
 
 
